@@ -6,13 +6,22 @@
  * Time: 8:25 PM
  */
 
-echo "<html lang=\"en\">
+?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset=\"UTF-8\">
-    <title>SafrSpace</title>
+    <meta charset="UTF-8">
+    <title>SaferSpace</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
-<h2>Welcome to SafrSpace!</h2>
-<p>A safer space for everyone</p>
+<div id="header" class="text-primary-color">
+    <div class="dark-primary-color">
+        <h1>SaferSpace</h1>
+    </div>
+    <div class="default-primary-color">
+        <p>A safer space for everyone</p>
+    </div>
+</div>
 </body>
-</html>";
+</html>
