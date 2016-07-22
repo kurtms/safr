@@ -6,4 +6,13 @@
  * Time: 8:25 PM
  */
 
-echo "Successful PHP";
+echo "<html lang=\"en\">
+<head>
+    <meta charset=\"UTF-8\">
+    <title>SafrSpace</title>
+</head>
+<body>
+<h2>Welcome to SafrSpace!</h2>
+<p>A safer space for everyone</p>
+</body>
+</html>";
