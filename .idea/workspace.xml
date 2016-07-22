@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90c03203-6681-4eea-bb06-4346a20950e4" name="Default" comment="initial">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
     </list>
     <ignored path="safr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,13 +29,15 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="582">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
-                <marker date="1469164238866" expanded="true" signature="88:117" ph="..." />
-                <marker date="1469164238866" expanded="true" signature="129:148" ph="..." />
-                <marker date="1469164238866" expanded="true" signature="321:330" ph="..." />
-                <marker date="1469164238866" expanded="true" signature="868:10437" ph="..." />
+                <marker date="1469166522136" expanded="true" signature="90:119" ph="..." />
+                <marker date="1469166522136" expanded="true" signature="131:150" ph="..." />
+                <marker date="1469166522136" expanded="true" signature="323:332" ph="..." />
+                <marker date="1469166522136" expanded="true" signature="1090:1103" ph="SELECT * FRO... " />
+                <marker date="1469166522136" expanded="true" signature="1090:1104" ph="SELECT * FRO... admin_users" />
+                <marker date="1469166522136" expanded="true" signature="1090:1112" ph="SELECT * FRO... messages" />
               </folding>
             </state>
           </provider>
@@ -219,7 +220,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1469156727814</updated>
-      <workItem from="1469156729045" duration="7271000" />
+      <workItem from="1469156729045" duration="8475000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1469156846494</created>
@@ -239,7 +240,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7271000" />
+    <option name="totallyTimeSpent" value="8475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="950" y="0" width="980" height="1030" extended-state="0" />
@@ -327,13 +328,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="582">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <marker date="1469164238866" expanded="true" signature="88:117" ph="..." />
-            <marker date="1469164238866" expanded="true" signature="129:148" ph="..." />
-            <marker date="1469164238866" expanded="true" signature="321:330" ph="..." />
-            <marker date="1469164238866" expanded="true" signature="868:10437" ph="..." />
+            <marker date="1469166522136" expanded="true" signature="90:119" ph="..." />
+            <marker date="1469166522136" expanded="true" signature="131:150" ph="..." />
+            <marker date="1469166522136" expanded="true" signature="323:332" ph="..." />
+            <marker date="1469166522136" expanded="true" signature="1090:1103" ph="SELECT * FRO... " />
+            <marker date="1469166522136" expanded="true" signature="1090:1104" ph="SELECT * FRO... admin_users" />
+            <marker date="1469166522136" expanded="true" signature="1090:1112" ph="SELECT * FRO... messages" />
           </folding>
         </state>
       </provider>
