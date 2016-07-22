@@ -6,4 +6,4 @@
  * Time: 8:25 PM
  */
 
-echo "Successful";
+echo "Successful PHP";
