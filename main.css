@@ -14,4 +14,11 @@
 
 #header {
     width: 100%;
+    position: absolute;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+}
+
+#header-placeholder {
+    position: relative;
+    box-shadow: 0;
 }
