@@ -52,3 +52,8 @@ input {
     float: left;
     border-right: solid #B6B6B6;
 }
+
+.messages_container {
+    height: 400px;
+    overflow-y: scroll;
+}

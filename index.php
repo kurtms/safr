@@ -37,19 +37,21 @@
     <p>honestly idk whats gonna go here lmao but here it is</p>
 </div>
 <div class="content_container">
-<?php
-    $db_connection = pg_connect("host=ec2-54-235-95-188.compute-1.amazonaws.com
+    <div class="messages_container">
+        <?php
+        $db_connection = pg_connect("host=ec2-54-235-95-188.compute-1.amazonaws.com
                                  dbname=db42l0eqboq9mr user=fdxsmyjjcjixke
                                  password=IVQKkvXvnfYXgKOCrp4fJW6tL3
                                  port=5432");
-    $query = "SELECT * FROM messages";
-    $result = pg_exec($db_connection, $query);
-    while($message = pg_fetch_array($result)){
-        echo "<div class=\"card\" title='" . $message['post_time'] . "'>" . $message['content'] . "</div>";
-    }
-    pg_freeresult($result);
-    pg_close($db_connection);
-?>
+        $query = "SELECT * FROM messages";
+        $result = pg_exec($db_connection, $query);
+        while ($message = pg_fetch_array($result)) {
+            echo "<div class=\"card\" title='" . $message['post_time'] . "'>" . $message['content'] . "</div>";
+        }
+        pg_freeresult($result);
+        pg_close($db_connection);
+        ?>
+    </div>
     <form action="post_message.php" class="card">
         <input autofocus type="text" name="message" class="divider-color">
         <input type="submit" value="Send">
