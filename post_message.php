@@ -8,7 +8,7 @@
 
 $content = $_GET['message'];
 if(!$content)
-    die("Error 403 Permission Denied");
+    die("<h1 style='text-align: center'>Error 403 Permission Denied</h1>");
 
 $db_connection = pg_connect("host=ec2-54-235-95-188.compute-1.amazonaws.com
                                  dbname=db42l0eqboq9mr user=fdxsmyjjcjixke

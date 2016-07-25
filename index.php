@@ -33,6 +33,9 @@
         <p>A safer space for everyone</p>
     </div>
 </div>
+<div class="left_panel">
+    <p>honestly idk whats gonna go here lmao but here it is</p>
+</div>
 <div class="content_container">
 <?php
     $db_connection = pg_connect("host=ec2-54-235-95-188.compute-1.amazonaws.com
@@ -42,15 +45,14 @@
     $query = "SELECT * FROM messages";
     $result = pg_exec($db_connection, $query);
     while($message = pg_fetch_array($result)){
-        echo "<div class=\"card\">" . $message['content'] . " at time " . $message['post_time'] . "</div>";
+        echo "<div class=\"card\" title='" . $message['post_time'] . "'>" . $message['content'] . "</div>";
     }
     pg_freeresult($result);
     pg_close($db_connection);
 ?>
     <form action="post_message.php" class="card">
-        Message:<br>
-        <input type="text" name="message"><br>
-        <input type="submit" value="Submit">
+        <input autofocus type="text" name="message" class="divider-color">
+        <input type="submit" value="Send">
     </form>
 </div>
 </body>

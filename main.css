@@ -34,3 +34,21 @@
     background: #FFFFFF;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
 }
+
+input {
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+}
+
+.content_container {
+    display: inline-block;
+    float: left;
+}
+
+.left_panel {
+    height: 89vh;
+    width: 300px;
+    display: inline-block;
+    float: left;
+    border-right: solid #B6B6B6;
+}
