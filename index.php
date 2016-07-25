@@ -15,6 +15,7 @@
     <title>SaferSpace</title>
     <link rel="icon" type="img/ico" href="img/favicon.ico">
     <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="main.js"></script>
 </head>
 <body class="light-primary-color">
 <div id="header" class="text-primary-color default-primary-color">
