@@ -54,6 +54,6 @@ input {
 }
 
 .messages_container {
-    height: 400px;
+    height: 82vh;
     overflow-y: scroll;
 }
